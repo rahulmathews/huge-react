@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {ReactDOM} from 'react-dom';
 
-import '../css/Menu.css';
+//Import Local Styles here
 
 const MenuComponent = () => {
     return (
@@ -16,23 +16,23 @@ const MenuComponent = () => {
                 <div id="menu-wrapper">
                     {/* navigation start */}
                     <div id="main-menu">
-                        <div class="menu-nav-wrapper">
-                            <nav class="menu-nav">
-                                <ul class="brackets">
-                                    <li class="menu">
-                                        <a class="menu-state active" href="#">Home</a>
+                        <div className="menu-nav-wrapper">
+                            <nav className="menu-nav">
+                                <ul className="brackets">
+                                    <li className="menu">
+                                        <a className="menu-state active" href="#">Home</a>
                                     </li>
-                                    <li class="menu">
-                                        <a class="menu-state" href="#" id="fire-about">About</a>
+                                    <li className="menu">
+                                        <a className="menu-state" href="#" id="fire-about">About</a>
                                     </li>
-                                    <li class="menu">
-                                        <a class="menu-state" href="#" id="fire-services">Services</a>
+                                    <li className="menu">
+                                        <a className="menu-state" href="#" id="fire-services">Services</a>
                                     </li>
-                                    <li class="menu">
-                                        <a class="menu-state" href="#" id="fire-photos">Photos</a>
+                                    <li className="menu">
+                                        <a className="menu-state" href="#" id="fire-photos">Photos</a>
                                     </li>
-                                    <li class="menu">
-                                        <a class="menu-state" href="#" id="fire-contact">Contact</a>
+                                    <li className="menu">
+                                        <a className="menu-state" href="#" id="fire-contact">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
 
-//Local styles
-import '../css/App.css';
+//import Local styles here
 
 import MenuComponent from '../components/MenuComponent';
+import Wrapper from '../components/sections/Wrapper';
 
 class App extends Component {
   render(){
 
     return (
-      <MenuComponent />
+      <div data-ui-role="content">
+        <MenuComponent />
+        <Wrapper />
+      </div>
     )
   }
 }

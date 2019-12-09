@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
-import {ReactDOM} from 'react-dom';
+import React from 'react';
+// import {ReactDOM} from 'react-dom';
 
 //Import Local Styles here
 
 const LogoSection = () => {
     return (
         <React.Fragment>
-            <button aria-hidden="true" classNamr="global-nav__hit-area" tabindex="-1">
+            <button aria-hidden="true" className="global-nav__hit-area" tabIndex="-1">
 
             </button>
             <div aria-atomic="true" aria-live="polite" className="a11y-hint" role="status">
 
             </div>
-            <button className="h-logo h-logo--magenta" id="header-logo-huge" tabindex="0">
+            <button className="h-logo h-logo--magenta" id="header-logo-huge" tabIndex="0">
                 <div className="a11y-hint">Huge logo. Click to open navigation.</div>
-                <div className="h-logo--wink" style={{"background-image":"url(img/hwink_sequence.png)"}}>
+                <div className="h-logo--wink" style={{"backgroundImage":"url('img/hwink_sequence.png')"}}>
 
                 </div>
                 <svg className="h-logo__svg" viewBox="0 0 20 28" xmlns="http://www.w3.org/2000/svg" title="Menu">

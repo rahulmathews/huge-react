@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {ReactDOM} from 'react-dom';
+import React from 'react';
+// import {ReactDOM} from 'react-dom';
 
 //Import Local Styles here
 
@@ -20,19 +20,19 @@ const MenuComponent = () => {
                             <nav className="menu-nav">
                                 <ul className="brackets">
                                     <li className="menu">
-                                        <a className="menu-state active" href="#">Home</a>
+                                        <a className="menu-state active" href="/">Home</a>
                                     </li>
                                     <li className="menu">
-                                        <a className="menu-state" href="#" id="fire-about">About</a>
+                                        <a className="menu-state" href="/" id="fire-about">About</a>
                                     </li>
                                     <li className="menu">
-                                        <a className="menu-state" href="#" id="fire-services">Services</a>
+                                        <a className="menu-state" href="/" id="fire-services">Services</a>
                                     </li>
                                     <li className="menu">
-                                        <a className="menu-state" href="#" id="fire-photos">Photos</a>
+                                        <a className="menu-state" href="/" id="fire-photos">Photos</a>
                                     </li>
                                     <li className="menu">
-                                        <a className="menu-state" href="#" id="fire-contact">Contact</a>
+                                        <a className="menu-state" href="/" id="fire-contact">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

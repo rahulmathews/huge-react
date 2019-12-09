@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //Global Styles
+import './css/globals/scrollSections.css';
 import './css/globals/index.css';
 import './css/globals/menu.css';
-import './css/globals/scrollSections.css';
 
 //Main Container
 import App from './container/App';

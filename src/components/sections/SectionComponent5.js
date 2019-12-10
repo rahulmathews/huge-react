@@ -28,7 +28,7 @@ const SectionComponent5 = () => {
                         <div className="home-section-details__subtitle">
                             <div className="home-section-details__subtitle-wrapper">
                                 <hr className="home-section-details__separator" style={{color:"#FFFFFF"}}/>
-                                <a href="#" rel="noopener noreferrer" target="_blank" style={{color:"#FFFFFF"}}>Huge’s Global CEO Pete Stein was joined by Brooks Running’s CMO Melanie Allen for an intimate fireside chat as they discussed the advertising industry’s next frontier: bringing emotions to brand experiences.</a>
+                                <a href="/" rel="noopener noreferrer" target="_blank" style={{color:"#FFFFFF"}}>Huge’s Global CEO Pete Stein was joined by Brooks Running’s CMO Melanie Allen for an intimate fireside chat as they discussed the advertising industry’s next frontier: bringing emotions to brand experiences.</a>
                             </div>
                         </div>
                     </div>

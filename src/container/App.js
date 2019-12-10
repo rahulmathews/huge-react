@@ -5,6 +5,9 @@ import React, {Component} from 'react';
 import MenuComponent from '../components/MenuComponent';
 import Wrapper from '../components/sections/Wrapper';
 
+//Global scripts
+import '../plugins/jquery';
+
 class App extends Component {
   render(){
 

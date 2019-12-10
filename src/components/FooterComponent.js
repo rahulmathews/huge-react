@@ -27,7 +27,7 @@ const FooterComponent = () => {
                         <a className="global-footer__link" href="/careers">Careers</a>
                         <a className="global-footer__link" href="/contact">Contact</a>
                     </nav>
-                    <aside className="global-footer__copyright" role="complementary" aria-label="The Fine Print.">
+                    <aside className="global-footer__copyright" aria-label="The Fine Print.">
                         <span className="global-footer__copyright-item global-footer__list-item">
                             © 2019
                             <a className="global-footer__link" href="/articles/using-this-site">Legal.</a>

@@ -78,7 +78,7 @@ $(function() {
                     $(i).mouseenter(function() {
                         a = setTimeout(function() {
                             $(i).css({
-                                height: e(i).height() + "px",
+                                height: $(i).height() + "px",
                                 display: "inline-block"
                             });
                             setTimeout(function() {

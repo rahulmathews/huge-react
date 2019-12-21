@@ -7,11 +7,7 @@ const app = express();
 
 app.use(compression());
 
-console.log(__dirname);
-
-const dir = __dirname;
-
-let staticPath = path.join(dir, process.env.ABSOLUTE_STATIC_PATH)
+let staticPath = path.join(__dirname, process.env.ABSOLUTE_STATIC_PATH)
 app.use('/static', express.static(staticPath));
 
 app.get('/', (req, res) => {
